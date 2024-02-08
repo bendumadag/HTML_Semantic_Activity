@@ -6,6 +6,10 @@ body{
 
 a{
     color: gold;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
 }
 
 #hero{
@@ -14,6 +18,32 @@ a{
     margin:0px 0px 0px 5%;
 }
 
+#container{
+    color: black;
+    text-align: center;
+    margin: 15% 0 20% 39%;
+    width: 20%;
+    height: 200px;
+    padding: 30px 40px;
+    background-color:cadetblue;
+    border-radius: 50px 20px;
+    border: 2px solid black;
+}
+
+#submit{
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px;
+    width: 80%;
+    background-color: blueviolet;
+    color: white;
+}
+
+#submit:hover{
+    border-radius: 10px;
+    color: greenyellow;
+}
 nav{
     margin: 0 0 10px 5%;
 }
@@ -32,4 +62,8 @@ section{
 
 h3{
     text-align: center;
+}
+
+.tf{
+    width: 90%;
 }
