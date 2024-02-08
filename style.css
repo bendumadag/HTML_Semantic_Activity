@@ -1,0 +1,35 @@
+body{
+    background-color: blueviolet;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: gold;
+}
+
+#hero{
+    width: 90%;
+    height: 300px;
+    margin:0px 0px 0px 5%;
+}
+
+nav{
+    margin: 0 0 10px 5%;
+}
+
+footer{
+    margin: 7% 0 1% 5%;
+}
+
+main,article{
+    margin: 1% 0 0 5%;
+}
+
+section{
+    margin: 5% 0 0 3%;    
+}
+
+h3{
+    text-align: center;
+}
